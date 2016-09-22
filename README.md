@@ -9,11 +9,7 @@ Q - Quit the program
 
 Here is an example of the program running:
 
-Input command (I,P,D,Q): I
-Input inputeger: 5
-
-Reset: reset completed.
-
+```
 Input command (I,P,D,Q): P
 The tree is empty.
 Input command (I,P,D,Q): I
@@ -58,3 +54,4 @@ Input command (I,P,D,Q): P
 Input command (I,P,D,Q): Q
 
 -- program is finished running --
+```
