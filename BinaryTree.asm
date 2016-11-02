@@ -146,7 +146,7 @@ li $a1, 0		# LEFT = NULL
 li $a2, 0		# RIGHT = NULL
 jal node_create		# CALL NODE CREATE
 move $s0, $v0		# $s0 IS THE ADDRESS OF THE ROOT
-addi $s7, $s7, 1	# EMPTY TREE FLAG NOW INDICATES THAT TREE HAS CONTENTS
+addi $s7, $s7, 1       # EMPTY TREE FLAG NOW INDICATES THAT TREE HAS CONTENTS
 b input_loop
 
 
